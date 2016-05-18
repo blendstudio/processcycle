@@ -2,18 +2,19 @@
 
 This is a collection of scripts that automates the software process cycle.
 
-### node.js Setup
+### Development Environment Setup
 
-    $ processcycle node
+    $ processcycle dev
 
-Downloads the nvm and installs the stable release.
+Downloads the development environment softwares and installs the stable releases.
 
 ### Initial Setup
 
     $ processcycle init
 
-This option will retrieve the source code, install required software and do the needed configurations.
-After this steps, run the node module should be enougth to get a working project:
+This option will retrieve the source code from repository, install required software
+(dependencies) and do the needed configurations. After this steps, run the node module
+should be enougth to get a working project:
 
     $ npm start
 
